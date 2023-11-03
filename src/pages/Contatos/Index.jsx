@@ -1,5 +1,4 @@
-
-import styles from "./contatos.module.css";
+import styles from './Contatos.module.css';
 import Icons from "../Icons/Icons";
 
 function Contatos () {

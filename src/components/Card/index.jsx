@@ -1,10 +1,10 @@
 import styles from './Card.module.css';
 import {FaCss3Alt, FaHtml5, FaJs, FaReact} from 'react-icons/fa';
 import {BsArrowRight} from 'react-icons/bs';
-import { Link} from 'react-router-dom'
+
 
 // eslint-disable-next-line react/prop-types, no-unused-vars
-function Card ({name, description, html, url})  {
+function Card ({name, description, html_url})  {
     return (
         <section className={styles.card}>
           <h3>{name}</h3>
@@ -16,17 +16,12 @@ function Card ({name, description, html, url})  {
              <FaJs />
              <FaReact />
              </div>
-
-             
-                
-                <Link to={html_url}  className={styles.botao}>
+             <a href={html_url} target="_blank" rel="nopenner norefferer 
+                noreferrer" className={styles.botao}>
                     <BsArrowRight />
-                </Link>
+             </a>
              </div>
-        
-
-        </section>
-
+         </section>
     );
 }
 

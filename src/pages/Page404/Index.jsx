@@ -1,4 +1,4 @@
-import Header from '../../components/Header';
+import Header from '../../components/Header/Index';
 import  Container  from '../../components/Container';
 import Footer from '../../components/Footer';
 import styles from './Page404.module.css';
