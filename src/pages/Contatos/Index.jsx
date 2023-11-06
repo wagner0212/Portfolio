@@ -11,8 +11,8 @@ function Contatos () {
            <p>Para que possamos conversar mais sobre.</p>
            <Icons/>
            </section>
-        
-      </>
+       </> 
+      
     );
 }
  export default Contatos;
